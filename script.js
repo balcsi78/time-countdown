@@ -4,7 +4,7 @@ let minBox = document.getElementById("min-box");
 let secBox = document.getElementById("sec-box");
 //Format: Date(year, month, day, hour, minute)
 //Year is counter from 0 to 11
-let endDate = new Date(2022, 11, 4, 10, 00);
+let endDate = new Date(2023, 11, 4, 10, 00);
 //Output value in milliseconds
 let endTime = endDate.getTime();
 function countdown() {
